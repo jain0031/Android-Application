@@ -35,6 +35,12 @@
         android:inputType="textPassword"
         android:text="passs" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login"
+        android:text="Log in" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
