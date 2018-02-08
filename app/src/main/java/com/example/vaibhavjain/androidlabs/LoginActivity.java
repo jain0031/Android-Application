@@ -25,6 +25,7 @@ public class LoginActivity extends Activity {
         final SharedPreferences.Editor edit = prefs.edit(); //edit the file
         final EditText textField = (EditText)findViewById(R.id.editText);
         textField.setText(prefs.getString(loginname,"email@domain.com"));
+
         Button button1 = (Button)findViewById(R.id.Login);
 
         button1.setOnClickListener(new View.OnClickListener() {

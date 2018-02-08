@@ -36,6 +36,8 @@ public class ListitemsActivity extends Activity {
                     Toast toast = Toast.makeText(ListitemsActivity.this , text, duration); //this is the ListActivity
                     toast.show();
                 }
+
+
                 else if(!isChecked){
                     CharSequence text = "Switch is off";// "Switch is Off"
                     int duration = Toast.LENGTH_SHORT; //= Toast.LENGTH_LONG if Off

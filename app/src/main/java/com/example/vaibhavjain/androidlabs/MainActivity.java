@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
             Toast toast = Toast.makeText(MainActivity.this , messagePassed,Toast.LENGTH_LONG); //this is the ListActivity
             toast.show(); //display your message box
 
+
         }
     }
 
