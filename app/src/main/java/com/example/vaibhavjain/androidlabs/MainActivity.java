@@ -26,16 +26,23 @@ public class MainActivity extends Activity {
                 startActivityForResult(secondIntent, 50);
             }
         });
+
+
+        Button buttonChat = (Button) findViewById(R.id.button2);
+        buttonChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void onActivityResult( int requestCode, int resultCode, Intent data)
     {
-        if(requestCode == 50)
-        {
 
-            Log.i("MainActivity", "Returned to StartActivity.onActivityResult");
-        }
-        else if (resultCode== Activity.RESULT_OK){
+if ( requestCode == 50  && resultCode== Activity.RESULT_OK){
             String messagePassed = data.getStringExtra("Response");
             Toast toast = Toast.makeText(MainActivity.this , messagePassed,Toast.LENGTH_LONG); //this is the ListActivity
             toast.show(); //display your message box

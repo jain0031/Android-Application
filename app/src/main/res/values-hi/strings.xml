@@ -2,6 +2,7 @@
     <string name="app_name">एंड्रॉइड लैब्स</string>
     <string name="hello_message">नमस्ते दुनिया!</string>
     <string name="ButtonText">मैं एक बटन हूँ </string>
+    <string name="button">प्रारंभ चार्ट </string>
     <string name="title_activity_main2">मुख्य  गतिविधि</string>
     <string name="Login">लॉग इन करें</string>
     <string name="LoginName">लॉगिन नाम</string>
@@ -9,8 +10,9 @@
     <string name="Switch">यह क्या करता है?</string>
     <string name="RadioButton">रेडियो बटन</string>
     <string name="CheckBox">चेक बॉक्स</string>
-</resources>
+    <string name="button_two">भेजना</string>
 
+</resources>
 
 
 

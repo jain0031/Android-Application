@@ -107,7 +107,6 @@ public class ListitemsActivity extends Activity {
             ImageButton myButn = (ImageButton) findViewById(R.id.imageButton);
              myButn.setImageBitmap(img);
         }
-
     }
 
     @Override
