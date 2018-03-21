@@ -16,6 +16,15 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Log.i(ACTIVITY_NAME,"IN onCreate(): ");
         Button button2 = (Button)findViewById(R.id.button);
+        Button button4 = (Button)findViewById(R.id.weather);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent secondIntent = new Intent(MainActivity.this,
+                        WeatherForecast.class);
+                startActivityForResult(secondIntent, 50);
+            }
+        });
 
 
         button2.setOnClickListener(new View.OnClickListener() {
