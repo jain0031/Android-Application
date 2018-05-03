@@ -26,6 +26,14 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button toolbarBtn = (Button) findViewById(R.id.testtoolbarbtn);
+        toolbarBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this,TestToolbar.class);
+                startActivityForResult(intent4,50);
+            }
+        });
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -171,7 +171,7 @@ public class ChatWindow extends Activity {
         public long getId(int position){
             cursor.moveToPosition(position);
             return cursor.getLong(cursor.getColumnIndex(ChatDatabaseHelper.KEY_ID));
-        };
+        }
     }
 
 

@@ -39,7 +39,6 @@
             tools:layout_editor_absoluteY="465dp" />
 
         <FrameLayout
-            android:id="@+id/framelayout"
             android:layout_width="290dp"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true"
